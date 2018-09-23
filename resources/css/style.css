@@ -1,0 +1,359 @@
+
+/* --------------------------------- */
+/* BASIC SETUP */
+/* --------------------------------- */
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+head {
+    display:none;
+    
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0px!;
+    padding: 0 0;
+    
+}
+
+.fluid-container {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    text-align: center;
+    max-width: 100%;
+    margin: 100px auto;
+}
+
+header {
+    text-align: center;
+    max-height: 100%;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    text-align: center
+}
+
+/* --------------------------------- */
+/* REUSABLE COMPONENTS */
+/* --------------------------------- */
+
+h1 {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 440% !important;
+    letter-spacing: -3px !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 170% !important;
+    font-weight: 300 !important;
+    color:black;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+    letter-spacing: -3px !important;
+    font-size: 500% !important;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 120%;
+    font-weight: 300;
+    text-align: center;
+    position:relative;
+    
+}
+
+/* --------------------------------- */
+/* HEADER */
+/* --------------------------------- */
+
+#header-pic {
+    height: auto;    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../jpg/IMG_5769.jpg);
+    background-size: cover;
+}
+
+.social-icon {
+    color: #FFA14B;
+    transition: color 0.4s;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    text-decoration: none;
+}
+#header-card {
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+
+#welcome-text {
+    text-align: center;
+    margin: 15% 15% 10% 15%;
+    width: 100%;
+    
+}
+
+.greeting-text {
+    margin: 0% 20% 0% 20%;
+    text-align: center;
+}
+#header-img {
+    height: auto;
+    width: 55%;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 12%;
+}
+
+#header-contact {
+    font-size: 45px;
+    position: relative; 
+    margin-top: 10%;
+    margin-left: 7%;
+    max-width: auto;
+}
+
+.contact-text:hover {
+    transition: color 0.4s;
+    color: #FFA14B;
+    text-decoration: none;
+}
+
+.contact-section {
+    width: 50%;
+}
+
+/* --------------------------------- */
+/* NAV */
+/* --------------------------------- */
+
+
+.nav {
+    background-color: hsl(0, 0%, 20%); 
+    width: 100% !important;  
+}
+
+
+.nav li {
+    display: inline-block;
+    margin-right: 10%;
+    margin-top: 1%;
+    padding-bottom: 10px;
+    position: relative;
+    float: left;
+}
+
+.nav li a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    position: relative;
+}
+
+.nav li a:hover {
+    transition:color 0.4s;
+    color: #FFA14B;
+}
+
+#button {
+    font-size: 120%;
+    border-radius: 4em;
+    background-color: transparent;
+    color: black;
+    border: 2.5px solid #FFA14B;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -1px;
+    width: 40%;
+    font-weight: 500;
+    position: relative;
+    margin-left: 31%;
+    margin-top: 5%;
+    margin-bottom: 6%
+}
+
+.button-text {
+    color:black;
+    text-transform: none;
+}
+
+#button:hover {
+    transition: background-color 0.8s;
+    background-color: #FFA14B;
+    transition: color 0.4s;
+    color: white;
+    transition: border-color 0.4s;
+    border-color: white;
+}
+
+.button-text:hover {
+    transition: color 0.4s;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* --------------------------------- */
+/* ABOUT */
+/* --------------------------------- */
+
+.about {
+    margin: 200px auto;
+    height: auto;
+}
+
+.about-title {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.about-description {
+    text-align: center;
+    width: 800px;
+    margin: 30px;
+    position: relative;
+}
+
+.languages {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-weight: 700 !important;
+    font-size: 200% !important;
+    letter-spacing: -1.5px;
+    text-align: center;
+    width: 100%;
+}
+
+.skills-png {
+    width:auto;
+    max-height: 90px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    display:block;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+#skill-grid {
+    left: auto;
+    right: auto;
+}
+
+
+/* --------------------------------- */
+/* PROJECTS */
+/* --------------------------------- */
+
+#projects {
+    height: auto;
+    background-color: white;
+    text-align: inherit;
+    margin: 250px auto;
+}
+
+.website {
+    position: relative;
+    width: auto;
+    height: auto;
+    float:right;
+    margin: 15% 0 15% 15%;
+    
+}
+
+.projects-description {
+    position: relative; 
+    margin-top: -30%!important;
+    font-weight: 700 !important;
+    letter-spacing: -2px;
+    top: 23%;
+    margin-left: 10%;
+    font-size: 200% !important;
+}
+
+.website-lang {
+    margin: 0 15px;
+    color: #FFA14B;
+}
+
+.website-description {
+    position: relative;
+    top: 20%;
+    margin: 7% 5% auto 10%;
+    text-align: inherit
+}
+
+/* --------------------------------- */
+/* GALLERY */
+/* --------------------------------- */
+
+#gallery {
+    margin-bottom:auto;
+    height: auto;
+}
+
+.gallery-title {
+    position: relative;
+    margin: auto auto;
+    text-align: center;
+}
+
+.gallery-text {
+    position: relative;
+    margin: 30% auto;
+    color: #FFA14B
+}
+
+.carousel-item img {
+    width: 50%;
+    height: 50%;
+}
+
+
+/* --------------------------------- */
+/* FOOTER */
+/* --------------------------------- */
+
+footer {
+    padding-bottom:20%;
+    overflow-y: hidden;
+}
+
+#footer-contact {
+    font-size: 150%;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 10% auto;
+    font-weight: 400; 
+}
+
+.script {
+    display: none;
+}
